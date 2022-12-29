@@ -20,6 +20,12 @@ Twilio is a leader in the communications-platform-as-a-service (CPaaS) space, wh
 
 You're right; the real utility of this app will be when you it, or something like it, behind a Twilio number of your own. Put an app like this behind the incoming message request URL of an incoming Twilio phone number and then you can text numbers to it and get a response. 
 
+## How do I make the magic happen (run the app)?
+
+clone the project onto your machine
+cd twilio-operator-academy
+npm start
+
 ## I'd like to change the behavior of this app, where do I start?
 
 This is an express app, so you can make changes to routes.js

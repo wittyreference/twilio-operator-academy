@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
 
 //Is Twilio Spamming Me? bot 
 
-router.get("twilioSpam/:phonenumber", (req, res) => {
+router.get("/twilioSpam/:phonenumber", (req, res) => {
   let phonenumber = req.params.phonenumber;
 
   // Use Axios to make a GET request to the Twilio Lookup API
